@@ -3,6 +3,6 @@ kind: ConfigMap
 metadata:
   name: app-env
 data:
-  {{- range .Values.env-props }}
+  {{- range .Values.envprops }}
     {{ .name }}: {{ .value }}
   {{- end }}
