@@ -3,6 +3,5 @@ envprops:
   value: "1"
 - name: "app.prop.2"
   value: "2"
-- name: "app.prop.1"
+- name: "app.prop.3"
   value: "dev"
-
